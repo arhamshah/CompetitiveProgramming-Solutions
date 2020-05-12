@@ -1,0 +1,28 @@
+Take as input N, an odd number (>=5) . Print the following pattern as given below for N = 7.
+
+*  ****
+*  *
+*  *
+*******
+   *  *
+   *  *
+****  *
+Input Format
+Enter value of N ( >=5 )
+
+Constraints
+5 <= N <= 99
+
+Output Format
+Print the required pattern.
+
+Sample Input
+7
+Sample Output
+*  ****
+*  *
+*  *
+*******
+   *  *
+   *  *
+****  *
