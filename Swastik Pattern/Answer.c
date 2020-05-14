@@ -17,22 +17,22 @@ int main(void)
     rem=n-blank-1;
     if(n<5 || n%2==0)
         return 1;
- //****************************** First Line ****************************************************           
+ //*First Line*      
     printStar(1);
     space(blank);
     printStar(rem);
     printf("\n");
-//****************************** Middle Rows with Blank Spaces ***********************************            
+//*Middle Rows with Blank Spaces*            
     for(int j=0;j<blank;j++){
         printStar(1);
         space(blank);
         printStar(1);
         printf("\n");
     }
-//****************************** Centre Line *****************************************************   
+//*Centre Line*   
     printStar(n);
     printf("\n");
-//****************************** Middle Rows with Blank Spaces ***********************************
+//*Middle Rows with Blank Spaces*
 for(int j=0;j<blank;j++){
         space(blank+1);
         printStar(1);
@@ -40,7 +40,7 @@ for(int j=0;j<blank;j++){
         printStar(1);
         printf("\n");
     }
-//****************************** Last Line ***********************************
+//*Last Line*
     printStar(rem);
     space(blank);
     printStar(1);
